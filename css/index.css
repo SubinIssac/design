@@ -746,6 +746,9 @@ h2 {
 }
 
 @media (max-width: 992px) {
+    .intro-text {
+    padding-top: 20px;
+    }
     .footer-box {
     justify-content: left;
     align-items: flex-start;
@@ -819,4 +822,5 @@ h2 {
     .card {
         padding: 20px;
     }
+
 }
