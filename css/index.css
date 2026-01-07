@@ -771,7 +771,7 @@ h2 {
     transform: unset;
     }
     .intro-text h1 {
-    font-size: 3rem;
+    font-size: 2.7rem;
 }
     .media {
         flex-direction: column;
@@ -815,7 +815,7 @@ h2 {
     }
 
     .intro-text {
-        padding-top: 155px;
+        padding-top: 50px;
         max-width: 330px;
     }
 
@@ -824,3 +824,4 @@ h2 {
     }
 
 }
+
