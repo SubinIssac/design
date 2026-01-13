@@ -56,6 +56,8 @@ h6.sub-h{
 background-color: #E9F2FF;
 color: #00233c;
 border-right: 1px solid #e1e5eb;
+max-height: unset;
+overflow: unset;
 }
 .card-goal .card:last-child{
   
@@ -140,10 +142,10 @@ border-right: 1px solid #e1e5eb;
     /* writings */
     /* BENTO */
 .bento-container{
-    padding: 24px 24px 0;
+   padding: 15px 15px 0;
     border-radius: 16px;
     border: 1px solid #595959;
-    margin: 30px;
+    margin: 15px;
 }
 .bento-tile {
       background-color: #000425;
@@ -233,7 +235,7 @@ font-weight: 700;
 
         /* Highlight/Blockquote Style */
         .highlight-box {
-           border-left: 4px solid #000425;
+            border-left: 4px solid #000425;
     padding: 15px;
     margin: 0rem 0 1rem;
     font-style: italic;
@@ -273,5 +275,19 @@ font-weight: 700;
             color: #757575;
             letter-spacing: 10px;
         }
-
     /* writings-end */
+
+/* MEDOA QUERY FOR RESPONSIVE DESIGN */
+    @media (max-width: 768px) {
+.bento-container {
+    margin: 10px;
+    }
+    .card-group.scope-card, .card-group.key-card {
+        display: block;
+        flex-flow: column wrap;
+    }
+.card-group.scope-card .card, .card-group.key-card .card{
+  margin-bottom: 15px;
+}
+}
+/* MEDOA QUERY FOR RESPONSIVE DESIGN ---- END */
