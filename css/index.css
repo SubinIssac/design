@@ -625,7 +625,7 @@ h2.landing-h2 {
 }
 
 .domains-section .card {
-    background-color: #a7b3ff;
+    background-color:#000425 ;
     padding: 24px;
     border-radius: 20px;
     max-height: none;
@@ -635,7 +635,7 @@ h2.landing-h2 {
     color: #FFFFFF;
 }
 .domains-section .card-text{
-    color: #6F7494;
+    color: #a7b3ff;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -833,5 +833,6 @@ h2.landing-h2 {
         padding: 20px;
     }
 }
+
 
 
